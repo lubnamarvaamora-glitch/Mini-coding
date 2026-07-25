@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food Price Calculator</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>🍽 Food Price Calculator</h1>
+
+<p>Pilih menu favoritmu lalu tekan Hitung Total.</p>
+
+<div class="card">
+
+<h2>Makanan</h2>
+
+<label><input type="checkbox" value="15000"> Nasi Goreng - Rp15.000</label>
+
+<label><input type="checkbox" value="12000"> Mie Ayam - Rp12.000</label>
+
+<label><input type="checkbox" value="18000"> Ayam Geprek - Rp18.000</label>
+
+<label><input type="checkbox" value="20000"> Sate Ayam - Rp20.000</label>
+
+<label><input type="checkbox" value="10000"> Bakso - Rp10.000</label>
+
+<label><input type="checkbox" value="22000"> Rendang - Rp22.000</label>
+
+<label><input type="checkbox" value="17000"> Soto Ayam - Rp17.000</label>
+
+<label><input type="checkbox" value="16000"> Pecel Lele - Rp16.000</label>
+
+<h2>Minuman</h2>
+
+<label><input type="checkbox" value="5000"> Air Mineral - Rp5.000</label>
+
+<label><input type="checkbox" value="7000"> Es Teh - Rp7.000</label>
+
+<label><input type="checkbox" value="9000"> Jus Jeruk - Rp9.000</label>
+
+<label><input type="checkbox" value="12000"> Cappuccino - Rp12.000</label>
+
+</div>
+
+<div class="button-group">
+
+<button onclick="hitungTotal()">Hitung Total</button>
+
+<button onclick="resetPilihan()">Reset</button>
+
+</div>
+
+<h2 id="hasil">Total : Rp0</h2>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+  </html>
