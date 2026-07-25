@@ -1,0 +1,33 @@
+function hitungTotal(){
+
+let total=0;
+
+let menu=document.querySelectorAll("input[type='checkbox']");
+
+menu.forEach(function(item){
+
+if(item.checked){
+
+total+=parseInt(item.value);
+
+}
+
+});
+
+document.getElementById("hasil").innerHTML="Total : Rp"+total.toLocaleString("id-ID");
+
+}
+
+function resetPilihan(){
+
+let menu=document.querySelectorAll("input[type='checkbox']");
+
+menu.forEach(function(item){
+
+item.checked=false;
+
+});
+
+document.getElementById("hasil").innerHTML="Total : Rp0";
+
+}
